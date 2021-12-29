@@ -506,6 +506,10 @@ footer a {
 /* Desktop screen styles */
 
 @media (min-width: 40rem) {
+  .col-md-6{
+    width: 50%;
+    float: left;
+  }
   p,
   span {
     line-height: normal;
