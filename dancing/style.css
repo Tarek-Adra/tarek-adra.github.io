@@ -59,3 +59,12 @@ body {
   top: 27px;
   left: 27px;
 }
+
+.qr-photo{
+  width: 125px;
+  background-color: white;
+  border-radius: 16px;
+  position: absolute;
+  top: 27px;
+  right: 27px;
+}
