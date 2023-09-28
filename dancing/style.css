@@ -50,3 +50,12 @@ body {
   font-size: 46px;
   margin: 10px 0;
 }
+
+.logo-photo{
+  width: 125px;
+  background-color: white;
+  border-radius: 16px;
+  position: absolute;
+  top: 27px;
+  left: 27px;
+}
