@@ -54,7 +54,7 @@ body {
 
 .logo-photo{
   width: 125px;
-  background-color: white;
+  /* background-color: white; */
   border-radius: 16px;
   position: absolute;
   top: 27px;
