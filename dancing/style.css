@@ -1,11 +1,11 @@
 :root {
-  --c-width: 600px;
-  --c-height: 800px;
+  --c-width: 400px;
+  --c-height: 600px;
   --bg-color: #666;
 }
 
 body {
-  overflow: hidden;
+  /* overflow: hidden; */
   margin: 0;
   /* https://www.svgbackgrounds.com */
   background-color: var(--bg-color);
@@ -15,10 +15,12 @@ body {
 #cnv {
   width: var(--c-width);
   height: var(--c-height);
-  position: fixed;
+  position: relative;
   left: calc(50% - (var(--c-width) * 0.5));
-  top: calc(50% - (var(--c-height) * 0.5));
+  /* top: 250px; */
+  margin-top: -65px;
   background-color: transparent;
+  
 }
 
 .my-photo {

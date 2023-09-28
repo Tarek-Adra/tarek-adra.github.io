@@ -14,12 +14,15 @@
     <p class="t-2">We will have fun in </p>
     <h2 class="t-3">SEI</h2>
     <canvas id="cnv"></canvas>
-   
-    <h2 class="t-3" style="    margin-top: 630px;
+
+    <h2 class="t-3" style="    margin-top: -92px;
     position: relative;
     z-index: 999;
     font-size: 30px;">SEI CLUB</h2>
 
+    <audio  loop id="music">
+        <source  src="sound.mp3" type="audio/mp3" />
+    </audio>
     <script type="module">
 
 
@@ -256,6 +259,7 @@
         let figurePalette = palettes[1];
 
         cnv.addEventListener("pointerdown", event => {
+            PlayMusic();
             activePalette = palettes[Math.floor(Math.random() * palettes.length)];
             figurePalette = palettes[Math.floor(Math.random() * palettes.length)];
         })
@@ -301,7 +305,13 @@
             figurePalette = palettes[Math.floor(Math.random() * palettes.length)];
         }, 1000);
 
-    </script>
-    </a<img>
 
-</img>
+        function PlayMusic() {
+            var play = document.getElementById("music");
+            play.play();
+        }
+         
+    </script>
+</body>
+
+</body>
