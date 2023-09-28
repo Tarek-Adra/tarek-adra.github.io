@@ -93,13 +93,13 @@
             draw(ctx, palette) {
 
                 let size = this.frames[0].size;
-                ctx.fillStyle = this.bgColor;
-                ctx.fillRect(size.x * -0.5, size.y * -0.5, size.x, size.y);
+                // ctx.fillStyle = this.bgColor;
+                // ctx.fillRect(size.x * -0.5, size.y * -0.5, size.x, size.y);
 
-                this.frames.forEach((frame, frameIdx) => {
-                    frame.fill = palette[palette.length - 1 - frameIdx];
-                    frame.draw(ctx)
-                });
+                // this.frames.forEach((frame, frameIdx) => {
+                //     frame.fill = palette[palette.length - 1 - frameIdx];
+                //     frame.draw(ctx)
+                // });
             }
         }
 
@@ -200,7 +200,7 @@
                     if (s.name != "base") {
                         s.angleStart = s.angleEnd;
                         s.setRandomAngleEnd();
-                        //s.rotation.z = s.angleEnd;
+                        s.rotation.z = s.angleEnd;
                     }
                 })
             }
@@ -213,11 +213,11 @@
                     let invPIdx = (palette.length - 1) - pIdx;
                     let actionVal = MathUtils.mapLinear(this.action.val, 0.05 * invPIdx, 0.05 * invPIdx + 0.75, 0, 1);
                     actionVal = MathUtils.clamp(actionVal, 0, 1);
-                    this.traverse(c => {
-                        if (c.name != "base") {
-                            c.rotation.z = MathUtils.clamp(MathUtils.lerp(c.angleStart, c.angleEnd, actionVal), 0, 1);
-                        }
-                    });
+                    // this.traverse(c => {
+                    //     if (c.name != "base") {
+                    //         c.rotation.z = MathUtils.clamp(MathUtils.lerp(c.angleStart, c.angleEnd, actionVal), 0, 1);
+                    //     }
+                    // });
 
                     this.updateMatrixWorld();
 
@@ -320,6 +320,39 @@
             play.play();
         }
          
+
+
+
+        function addBlob() {
+    var b = document.createElement('div'),
+        size = Math.floor(Math.random()*200) + 50
+    b.className = 'blob'
+    b.style.width = size + 'px'
+    b.style.aspectRatio = '1/1'
+    b.style.background = 'hsl('+Math.floor(Math.random()*360)+'deg, 100%, 50%)'
+    b.style.position = 'absolute'
+    b.style.left = Math.random()*100 + '%'
+    b.style.top = Math.random()*100 + '%'
+    b.style.zIndex = '-1'
+    b.style.borderRadius = '50%'
+    b.onanimationend = function(){
+      this.remove()
+    }
+    document.body.appendChild(b)
+  }
+  
+  setInterval(addBlob,100)
+  
+  function moveText(e){
+    var x = e.clientX,
+        y = e.clientY
+    document.querySelector('div').style.position = 'absolute'
+    document.querySelector('div').style.transform = 'translate(-50%, -25%)'
+    document.querySelector('div').style.left = x + 'px'
+    document.querySelector('div').style.top = y + 'px'
+  }
+  
+  // window.addEventListener('mousemove', moveText)
     </script>
 </body>
 
