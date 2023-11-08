@@ -23,9 +23,25 @@ https://templatemo.com/tm-534-parallo
       font-weight: bold;
     }
 
-    .list-links a{
+    .list-links a {
       color: white;
-      font-size: 14px;;
+      font-size: 14px;
+      ;
+
+    }
+
+    .slick-initialized .slick-slide {
+      min-height: 664px;
+    }
+    .tm-feature-box{
+      min-height: 606px;
+    }
+
+    .tm-app-feature-box{
+      min-height: 475px;
+    }
+    #tmCallToAction.tm-testimonials-cta{
+      padding-bottom:60px;
     }
   </style>
 </head>
@@ -52,7 +68,7 @@ https://templatemo.com/tm-534-parallo
           <div class="tm-brand-container tm-bg-white-transparent">
             <img src="img/banner4.png" alt="" style="max-width: 275px;
               margin-right: 20px;">
-           
+
           </div>
         </div>
 
@@ -63,14 +79,14 @@ https://templatemo.com/tm-534-parallo
       <section class="row" id="tmServices">
         <div class="col-12">
           <div class="parallax-window tm-services-parallax-header tm-testimonials-parallax-header"
-               data-parallax="scroll"
-               data-z-index="101"
-               data-image-src="img/ice-mountain.jpg">
+            data-parallax="scroll"
+            data-z-index="101"
+            data-image-src="img/ice-mountain.jpg">
 
             <div class="tm-bg-black-transparent text-center tm-services-header tm-testimonials-header">
               <h2 class="text-uppercase tm-services-page-title tm-testimonials-page-title">Work Summary</h2>
               <p class="tm-services-description mb-0 small">
-                Department：Project management 
+                Department：Project management
               </p>
             </div>
           </div>
@@ -106,13 +122,21 @@ https://templatemo.com/tm-534-parallo
             </div>
             <h3 class="tm-about-name tm-uppercase">Web/SEO Development</h3>
             <p class="tm-about-description">
-              Managed various web development projects, including Homatics, SEI website, IBC Interface, and Router Web Interface.
+              Managed various web development projects, including:
+            <ul class="text-left">
+
+
+              <li>Homatics</li>
+              <li><a href="http://192.168.20.217/sei/">SEI website</a></li>
+              <li>IBC Interface</li>
+              <li>Router Web Interface</li>
+            </ul>
             </p>
           </div>
 
           <div class="tm-bg-black-transparent tm-testimonial-box text-center">
             <div class="tm-person-img-container">
-              <img src="img/person-4.png" alt="Image" class="img-fluid mx-auto" />
+              <a href="http://localhost/next_ai/" target="_blank"> <img src="img/person-4.png" alt="Image" class="img-fluid mx-auto" /></a>
             </div>
             <h3 class="tm-about-name tm-uppercase">Analytics dashboard</h3>
             <p class="tm-about-description">
@@ -139,9 +163,9 @@ https://templatemo.com/tm-534-parallo
       <section class="row" id="tmServices">
         <div class="col-12">
           <div class="parallax-window tm-services-parallax-header tm-testimonials-parallax-header"
-               data-parallax="scroll"
-               data-z-index="101"
-               data-image-src="img/people.jpg">
+            data-parallax="scroll"
+            data-z-index="101"
+            data-image-src="img/people.jpg">
 
             <div class="tm-bg-black-transparent text-center tm-services-header tm-testimonials-header">
               <h2 class="text-uppercase tm-services-page-title tm-testimonials-page-title">Personal Summary</h2>
@@ -158,7 +182,8 @@ https://templatemo.com/tm-534-parallo
 
       <section class="row" id="tmHome">
         <div class="col-12 tm-home-container">
-          <div class="text-white tm-home-left">
+          <div class="text-white tm-home-left" style="    background-color: #00000073;
+          padding: 10px;">
             <p class="text-uppercase tm-slogan">Personal Summary</p>
             <hr class="tm-home-hr" />
             <h2 class="tm-home-title">Strength</h2>
@@ -306,7 +331,7 @@ https://templatemo.com/tm-534-parallo
           <img src="img/call-to-action.jpg" alt="Image" class="img-fluid tm-call-to-action-image" />
           <div class="tm-bg-white tm-call-to-action-text">
             <h2 class="tm-call-to-action-title">Opportunity</h2>
-            <h3> What emerging trends in my industry could benefit me?</h3>
+            <h3> Unlocking Opportunities: <small style="font-size: 20px;">Emerging Trends in the Industry That Could Benefit me</small></h3>
             <p class="tm-call-to-action-description">
               Staying current with technology advancements worldwide is essential. It allows me to contribute innovative concepts and collaborate on new product development with our CEO, benefiting both me and positioning our organization at the industry forefront."
             </p>
@@ -316,7 +341,7 @@ https://templatemo.com/tm-534-parallo
               within our global company, I have abundant networking opportunities, thanks to our diverse and expansive workforce, offering valuable collaboration and knowledge exchange for personal and professional growth.
             </p>
 
-            <h3>I check job openings 🙈 , promotions, or projects that align with my  skills and goals</h3>
+            <h3>I check job openings 🙈 , promotions, or projects that align with my skills and goals</h3>
             <p class="tm-call-to-action-description">
               I see aligning opportunities in product management and development that allow me to leverage my creativity and innovation, and make my visions a reality, fulfilling my personal and professional goals </p>
 
@@ -326,7 +351,7 @@ https://templatemo.com/tm-534-parallo
               I utilize company training programs on cutting-edge technologies like AI, VR, AR, IoT, and AWS/Azure services, demonstrating my commitment to continuous learning and staying updated in the tech industry. </p>
 
 
-          </div>
+          </small<>
         </div>
       </section>
 
@@ -378,7 +403,15 @@ https://templatemo.com/tm-534-parallo
           <div class="tm-bg-white tm-call-to-action-text">
             <h2 class="tm-call-to-action-title">Future Plan</h2>
             <p class="tm-call-to-action-description">
-              In my career, I'm committed to pioneering innovations and reaching global customers outside China. My vision includes creating a dedicated international support team and leading external communication, aiming to make a significant impact in my professional journey.
+
+            <h2>In my career, I'm committed to:</h2>
+            <ol>
+              <li>Pioneering innovations</li>
+              <li>Reaching global customers outside China</li>
+              <li>Creating a dedicated international support team</li>
+              <li>Leading external communication</li>
+              <li>Aiming to make a significant impact in my professional journey</li>
+            </ol>
             </p>
           </div>
         </div>
@@ -429,14 +462,14 @@ https://templatemo.com/tm-534-parallo
           Copyright &copy; 2023 Tarek Adra / SEI Robotics
         </p>
         <div class="list-links">
-          <a target="_blank" href="https://tarek-adra.github.io/">Personal Branding</a> | 
-          <a target="_blank" href="https://play.google.com/store/apps/developer?id=Tarek+Adra">My Apps on play Store</a> | 
-          <a target="_blank" href="https://play.google.com/store/apps/developer?id=Tripnologies+inc.">Android Apps By my (Old Company)</a> | 
-          <a target="_blank" href="https://apps.apple.com/us/developer/tripnologies-inc/id1053947392">Apple Apps By my (Old Company)</a> | 
-          <a target="_blank" href="https://masba7a.com/">Masba7a.com</a> | 
-          <a target="_blank" href="https://Estghfar.com/">Estghfar.com</a> | 
-          <a target="_blank" href="https://5etme.com/">5etme.com</a> | 
-          <a target="_blank" href="https://anyquizi.com/">anyquizi.com</a> | 
+          <a target="_blank" href="https://tarek-adra.github.io/">Personal Branding</a> |
+          <a target="_blank" href="https://play.google.com/store/apps/developer?id=Tarek+Adra">My Apps on play Store</a> |
+          <a target="_blank" href="https://play.google.com/store/apps/developer?id=Tripnologies+inc.">Android Apps By my (Old Company)</a> |
+          <a target="_blank" href="https://apps.apple.com/us/developer/tripnologies-inc/id1053947392">Apple Apps By my (Old Company)</a> |
+          <a target="_blank" href="https://masba7a.com/">Masba7a.com</a> |
+          <a target="_blank" href="https://Estghfar.com/">Estghfar.com</a> |
+          <a target="_blank" href="https://5etme.com/">5etme.com</a> |
+          <a target="_blank" href="https://anyquizi.com/">anyquizi.com</a> |
           <a target="_blank" href="https://dou3a.com/">dou3a.com</a>
         </div>
       </footer>
