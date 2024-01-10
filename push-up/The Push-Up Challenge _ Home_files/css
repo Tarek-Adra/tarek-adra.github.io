@@ -1,0 +1,780 @@
+/*
+	Font Settings
+*/	
+		body, p {
+				font-family:Rubik;
+						font-size:16px;
+						line-height:165%;
+								text-transform:none;
+						font-weight:400;
+			}
+		.btn, .funraisin-primary-nav .btn, .funraisin-secondary-nav .btn, .funraisin-sticky-nav .btn {
+				font-family:Rubik;
+						font-size:19px;
+						line-height:120%;
+								text-transform:none;
+						font-weight:600;
+			}
+		.funraisin-primary-nav li a {
+				font-family:Rubik;
+						font-size:20px;
+						line-height:%;
+								text-transform:none;
+						font-weight:400;
+			}
+		.funraisin-primary-nav .funraisin-dropdown-menu li a {
+				font-family:Rubik;
+						font-size:16px;
+						line-height:%;
+								text-transform:none;
+						font-weight:400;
+			}
+		.funraisin-secondary-nav li a {
+				font-family:Rubik;
+						font-size:16px;
+						line-height:%;
+								text-transform:none;
+						font-weight:400;
+			}
+		.funraisin-tertiary-nav li a {
+				font-family:Rubik;
+						font-size:16px;
+						line-height:%;
+								text-transform:none;
+						font-weight:400;
+			}
+		.funraisin-sticky-nav li a {
+				font-family:Rubik;
+						font-size:20px;
+						line-height:%;
+								text-transform:none;
+						font-weight:400;
+			}
+		.funraisin-header-nav {
+				font-family:Rubik;
+						font-size:16px;
+						line-height:%;
+								text-transform:none;
+						font-weight:400;
+			}
+		.lump-navigation .nav-pills li a, .funraisin-page-nav li a,.tab-content .nav-tabs li a {
+				font-family:Rubik;
+						font-size:16px;
+						line-height:%;
+								text-transform:none;
+						font-weight:400;
+			}
+		.funraisin-header h1 {
+				font-family:Rubik;
+						font-size:64px;
+						line-height:105%;
+								text-transform:none;
+						font-weight:700;
+			}
+		h1 {
+				font-family:Rubik;
+						font-size:50px;
+						line-height:120%;
+								text-transform:none;
+						font-weight:700;
+			}
+		h2 {
+				font-family:Rubik;
+						font-size:36px;
+						line-height:120%;
+								text-transform:none;
+						font-weight:700;
+			}
+		h3 {
+				font-family:Rubik;
+						font-size:24px;
+						line-height:135%;
+								text-transform:none;
+						font-weight:600;
+			}
+		h4 {
+				font-family:Rubik;
+						font-size:18px;
+						line-height:29px;
+								text-transform:none;
+						font-weight:400;
+			}
+		h5 {
+				font-family:Rubik;
+						font-size:16px;
+						line-height:120%;
+								text-transform:none;
+						font-weight:600;
+			}
+		h6 {
+				font-family:Rubik;
+						font-size:16px;
+						line-height:150%;
+						letter-spacing:3px;
+						text-transform:uppercase;
+						font-weight:600;
+			}
+		.funraisin-header .funraisin-profile-header h1 {
+				font-family:Rubik;
+						font-size:56px;
+						line-height:%;
+								text-transform:none;
+						font-weight:700;
+			}
+		.funraisin-form label,label {
+				font-family:Rubik;
+						font-size:15px;
+						line-height:%;
+								text-transform:none;
+						font-weight:600;
+			}
+		.funraisin-footer,.funraisin-footer ul ul a ,.funraisin-footer p {
+				font-family:Rubik;
+						font-size:16px;
+						line-height:150%;
+								text-transform:none;
+						font-weight:400;
+			}
+		.funraisin-footer h4 {
+				font-family:Rubik;
+						font-size:20px;
+						line-height:%;
+								text-transform:none;
+						font-weight:700;
+			}
+		.funraisin-footer-legals,.funraisin-footer-legals a:not(.btn),.funraisin-footer-legals p {
+				font-family:Rubik;
+						font-size:14px;
+						line-height:%;
+								text-transform:none;
+						font-weight:400;
+			}
+	
+/*
+	Primary and Seconday Colours
+*/
+.color-primary {color:#ffa400;}
+.border-primary {border-width:2px;border-style:solid;border-color:#ffa400;}
+.bg-primary,.btn-primary {background:#ffa400;}
+.slick-dots li.slick-active button::before, .funraisin-header-nav .slide-right i {color:#ffa400;}
+a:focus, a:hover, .funraisin-page-loggedin-toggle ul li a.active, .funraisin-page-loggedin-toggle ul li a:hover, .funraisin-header .color-primary, .section-question.active, .section-question, .section-question .button, .funraisin-desktop-nav .funraisin-dropdown-nav .LoggedInNavOptions .login-dropdown > a:not(.collapsed) {color:#ffa400;}
+.form-control:focus:focus,.registration-steps ul li.completed,.registration-steps ul li.current, .nav-tabs li.active, .owl-carousel .owl-dot.active, .section-question .button,.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {border-color:#ffa400;}
+.circ, .tick {stroke:#ffa400;}
+.funraisin-dropdown-nav.meganav:hover .funraisin-dropdown-menu {border-top:4px solid #ffa400}
+
+.lump-shop .product-quickview.panel .product-info .quickview-text {background-image: linear-gradient(to right,#ffa400 0%,#ffa400 100%);}
+.funraisin-toggle-nav ul li:hover a,.funraisin-toggle-nav ul li.active a,.nav>li>a.btn-primary:focus, .nav-tabs li.active, .causeHandlers .radio:hover, .causeHandlers .radio:focus, .causeHandlers .radio.selected, .registration-steps ul li.current, .funraisin-page-loggedin-toggle ul li a.active span, .funraisin-page-loggedin-toggle ul li a:hover span,.btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary:focus,.btn-primary:active:focus,.btn-primary:active,.btn-primary:active:hover,.btn-primary[disabled]:focus, .btn-primary[disabled]:hover {background:#ffa400;}
+.owl-carousel .owl-dot.active {background-color:#ffa400;}
+
+.c-hamburger span, .c-hamburger span::before, .c-hamburger span::after, .right-close span::before, .right-close span::after  {background:#ffa400;}
+
+#BacktoTop a {background:#ffa400;}
+.bootstrap-dialog.type-primary .modal-header {background:#ffa400 !important;}
+
+
+.color-secondary {color:#ffa400;}
+.border-secondary {border-color:#ffa400;}
+.bg-secondary,.btn-secondary {background:#ffa400;}
+.nav>li>a.btn-secondary:focus, .nav>li>a.btn-secondary:hover, #Donors .profilename h3:after {background:#ffa400;}
+
+.forecolor-primary {color:#000000 !important;}
+.bg-primary,.btn-primary {color:#000000;text-decoration:none !important;}
+.bg-forecolor {background: #000000;}
+.btn-forecolor {background:transparent;border:2px solid #000000;color:#000000;}
+.btn-forecolor:hover, .btn-forecolor:focus {background:#000000;color:#ffa400}
+.funraisin-toggle-nav ul li.active, .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, .causeHandlers .radio:hover a, .causeHandlers .radio:focus a, .causeHandlers .radio.selected a, .registration-steps ul li.current a,.profileSponsorForm label.bg-primary,.form-group label.bg-primary,.nav-tabs li.active,#donation_frequency_toggle li.bg-primary label,#amountdetails .donationHandlers.handlers5050 .radio:hover{color:#000000;}
+.bootstrap-dialog.type-primary .modal-header {color:#000000 !important;}
+
+.forecolor-secondary {color:#000000;}
+.bg-secondary,.btn-secondary {color:#000000;}
+
+/*
+	Admin generated specific elements
+*/
+
+		.btn {border-radius: 4px  }
+		
+
+				.btn,.funraisin-primary-nav ul li a.btn,.funraisin-secondary-nav ul li a.btn,.funraisin-sticky-nav ul li a.btn,.funraisin-tertiary-nav ul li a.btn {padding-left: 30px  }
+		
+
+				.btn,.funraisin-primary-nav ul li a.btn,.funraisin-secondary-nav ul li a.btn,.funraisin-sticky-nav ul li a.btn,.funraisin-tertiary-nav ul li a.btn {padding-right: 30px  }
+		
+
+				.btn,.funraisin-primary-nav ul li a.btn,.funraisin-secondary-nav ul li a.btn,.funraisin-sticky-nav ul li a.btn,.funraisin-tertiary-nav ul li a.btn {padding-top: 12px  }
+		
+
+				.btn,.funraisin-primary-nav ul li a.btn,.funraisin-secondary-nav ul li a.btn,.funraisin-sticky-nav ul li a.btn,.funraisin-tertiary-nav ul li a.btn {padding-bottom: 12px  }
+		
+
+				.btn-primary,.funraisin-primary-nav ul li a.btn-primary, .profileSidebar .profileSponsorForm .btn-primary,.btn-primary.disabled, .btn-primary:disabled {background: #ffa400  }
+		
+
+				.btn-primary,.funraisin-header .btn-primary,.content .btn-primary,.nav>li>a.btn-primary,.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-primary,.btn-primary.disabled, .btn-primary:disabled {color: #000000  }
+		
+
+				.btn-primary:hover,.nav>li>a.btn-primary:hover,.btn-primary:focus,.btn-primary:active:focus,.btn-primary:active,.btn-primary:active:hover,.btn-primary[disabled]:focus, .btn-primary[disabled]:hover, a.bg-primary:hover, a.bg-primary:focus,.funraisin-primary-nav ul li:hover a.btn-primary:hover, .funraisin-sticky-nav .navbar-nav>li:hover>a.btn-primary,.toggle-switch .btn.active,.funraisin-desktop-nav .funraisin-primary-nav .funraisin-dropdown-nav .CartDropdownOptions .BtnClose:hover,#Cart .BtClose:hover {background: #000000  }
+		
+
+				.btn-primary:hover,.nav>li>a.btn-primary:hover,.nav>li>a.btn-primary:hover,.btn-primary:focus,.btn-primary:active:focus,.btn-primary:active,.btn-primary:active:hover,.btn-primary[disabled]:focus, .btn-primary[disabled]:hover, a.bg-primary:hover, a.bg-primary:focus, .funraisin-primary-nav ul li:hover a.btn-primary:hover, .funraisin-sticky-nav .navbar-nav>li:hover>a.btn-primary,.toggle-switch .btn.active,.funraisin-desktop-nav .funraisin-primary-nav .funraisin-dropdown-nav .CartDropdownOptions .BtnClose:hover,#Cart .BtClose:hover {color: #ffffff  }
+		
+
+				.btn-primary {border-color: #ffa400  }
+		
+
+				.btn-primary:hover,.nav>li>a.btn-primary:hover,.nav>li>a.btn-primary:hover,.btn-primary:focus,.btn-primary:active:focus,.btn-primary:active,.btn-primary:active:hover,.btn-primary[disabled]:focus, .btn-primary[disabled]:hover, a.bg-primary:hover, a.bg-primary:focus, .funraisin-primary-nav ul li:hover a.btn-primary:hover, .funraisin-sticky-nav .navbar-nav>li:hover>a.btn-primary,.toggle-switch .btn.active,.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-primary:hover {border-color: #000000  }
+		
+
+				.btn-primary {border-width: 2px  }
+		
+
+				.btn-secondary {background: #000000  }
+		
+
+				.btn-secondary,.funraisin-header .btn-secondary,.content .btn-secondary,.nav>li>a.btn-secondary {color: #ffffff  }
+		
+
+				.btn-secondary:hover,.nav>li>a.btn-secondary:hover,.btn-secondary:focus,.btn-secondary:active:focus,.btn-secondary:active,.btn-secondary:active:hover,.btn-secondary[disabled]:focus, .btn-secondary[disabled]:hover {background: #808080  }
+		
+
+				.btn-secondary:hover,.nav>li>a.btn-secondary:hover,.btn-secondary:focus,.btn-secondary:active:focus,.btn-secondary:active,.btn-secondary:active:hover,.btn-secondary[disabled]:focus, .btn-secondary[disabled]:hover {color: #ffffff  }
+		
+
+				.btn-secondary {border-color: #000000  }
+		
+
+				.btn-secondary:hover,.nav>li>a.btn-secondary:hover,.btn-secondary:focus,.btn-secondary:active:focus,.btn-secondary:active,.btn-secondary:active:hover,.btn-secondary[disabled]:focus, .btn-secondary[disabled]:hover {border-color: #808080  }
+		
+
+				.btn-secondary {border-width: 2px  }
+		
+
+				.btn-tertiary,.funraisin-primary-nav ul li a.btn-tertiary {background: #ffa400  }
+		
+
+				.btn-tertiary,.funraisin-header .btn-tertiary,.content .btn-tertiary,.nav>li>a.btn-tertiary {color: #000000  }
+		
+
+				.btn-tertiary:hover,.nav>li>a.btn-tertiary:hover,.btn-tertiary:focus,.btn-tertiary:active:focus,.btn-tertiary:active,.btn-tertiary:active:hover,.btn-tertiary[disabled]:focus, .btn-tertiary[disabled]:hover, .btn-tertiary.active {background: #000000  }
+		
+
+				.btn-tertiary:hover,.nav>li>a.btn-tertiary:hover,.nav>li>a.btn-tertiary:hover,.btn-tertiary:focus,.btn-tertiary:active:focus,.btn-tertiary:active,.btn-tertiary:active:hover,.btn-tertiary[disabled]:focus, .btn-tertiary[disabled]:hover, a.bg-tertiary:hover, a.bg-tertiary:focus, .funraisin-primary-nav ul li:hover a.btn-tertiary:hover, .funraisin-sticky-nav .navbar-nav>li:hover>a.btn-tertiary, .btn-tertiary.active {color: #ffffff  }
+		
+
+				.btn-tertiary {border-color: #ffa400  }
+		
+
+				.btn-tertiary:hover {border-color: #000000  }
+		
+
+				.btn-tertiary {border-width: 2px  }
+		
+
+				.btn-tertiary,.funraisin-primary-nav ul li a.btn-tertiary,.funraisin-sticky-nav ul li a.btn-tertiary,.funraisin-secondary-nav ul li a.btn-tertiary,.funraisin-tertiary-nav ul li a.btn-tertiary {padding-left: 20px  }
+		
+
+				.btn-tertiary,.funraisin-primary-nav ul li a.btn-tertiary,.funraisin-sticky-nav ul li a.btn-tertiary,.funraisin-secondary-nav ul li a.btn-tertiary,.funraisin-tertiary-nav ul li a.btn-tertiary {padding-right: 20px  }
+		
+
+				.btn-cancel {background: #ffa400  }
+		
+
+				.btn-cancel:hover {background: #000000  }
+		
+
+				.btn-cancel:hover {color: #ffffff  }
+		
+
+				.btn-cancel {border-color: #ffa400  }
+		
+
+				.btn-cancel:hover {border-color: #000000  }
+		
+
+				.btn-login {color: #ffffff  }
+		
+
+				.btn-login:hover {color: #ffa400  }
+		
+
+				.btn-search {background: #ffa400  }
+		
+
+				.btn-search:hover {background: #000000  }
+		
+
+				.btn-search:hover {color: #ffffff  }
+		
+
+				.btn-search {border-color: #ffa400  }
+		
+
+				.btn-search:hover {border-color: #000000  }
+		
+
+				.OrangeWhite {background: rgb(255, 164, 0)  }
+		
+
+				.OrangeWhite {color: rgb(255, 255, 255)  }
+		
+
+				.OrangeWhite:hover, .nav>li>a.OrangeWhite:hover {background: rgb(0, 0, 0)  }
+		
+
+				.OrangeWhite:hover {color: rgb(255, 255, 255)  }
+		
+
+				.OrangeWhite {border-color: rgb(255, 164, 0)  }
+		
+
+				.OrangeWhite:hover {border-color: rgb(0, 0, 0)  }
+		
+
+				.OrangeWhite {border-width: 2px  }
+		
+
+				.OrangeWhite {padding-left: 20px  }
+		
+
+				.OrangeWhite {padding-right: 20px  }
+		
+
+				body {background: #ffffff  }
+		
+
+				body {color: #000000  }
+		
+
+				a {color: #ffa400  }
+		
+
+				.content {color: #5c5c5c  }
+		
+
+				.content .lump a:not(.btn):not([role='option']),.lump-snippet .options.text-link span {color: #ffa400  }
+		
+
+				.content .lump a:not(.btn):hover {color: #000000  }
+		
+
+				.content h1 {color: #000000  }
+		
+
+				.content h2 {color: #000000  }
+		
+
+				.content h3 {color: #000000  }
+		
+
+				.content h4 {color: #5c5c5c  }
+		
+
+				.funraisin-breadcrumb {margin: -70px auto 10px auto  }
+		
+
+				.funraisin-breadcrumb {padding: 1.5em 0 0  }
+		
+
+				.funraisin-breadcrumb {height: 60px  }
+		
+
+				.funraisin-breadcrumb a {color: #000000  }
+		
+
+				.funraisin-breadcrumb {color: #000000  }
+		
+
+				.funraisin-header h1 {color: #ffffff  }
+		
+
+				.funraisin-header {color: #ffffff  }
+		
+
+				.funraisin-header a {color: #ffffff  }
+		
+
+				#login {background-color: #ffffff  }
+		
+
+				#login {color: #000000  }
+		
+
+				#login a {color: #ffa400  }
+		
+
+				.profile-image-header .profile-image {border-color: #ffffff  }
+		
+
+				.profile-image-header .profile-image {border-width: 6px  }
+		
+
+				.profile-image {border-radius: 0 50px 0 50px  }
+		
+
+				.loggedin-header h1, .profile-header h1 {color: #ffffff  }
+		
+
+				.loggedin-header, .profile-header {color: #ffffff  }
+		
+
+				.profile-header a {color: #ffffff  }
+		
+
+				.loggedin-header:before, .profile-header:before {content: '';left: 0;width: 100%;height: 100%;display: block;position: absolute;top: 0;background: #000000  }
+		
+
+				.loggedin-header:before, .profile-header:before {opacity: 0.05  }
+		
+
+				.funraisin-header.event-header .container {max-width: 960px  }
+		
+
+				.funraisin-header-nav .slide-right i {color:#000000} .funraisin-header-nav .c-hamburger span::before,.funraisin-header-nav .c-hamburger span::before,.funraisin-header-nav .c-hamburger span::after,.funraisin-header-nav .right-close span::before,.funraisin-header-nav .right-close span::after,.funraisin-header-nav .c-hamburger span {background: #000000  }
+		
+
+				.primary-nav-container {padding-left: 0  }
+		
+
+				.primary-nav-container {padding-right: 0  }
+		
+
+				.primary-nav-container {padding-top: 20px  }
+		
+
+				.primary-nav-container {padding-bottom: 20px  }
+		
+
+				.funraisin-primary-nav ul li a:not(.btn),.funraisin-page-left .funraisin-primary-nav .funraisin-dropdown-menu li a {color: #000000  }
+		
+
+				.funraisin-primary-nav ul li a:not(.btn):hover {color: #444444  }
+		
+
+				.funraisin-primary-nav ul li a {padding-left: 15px  }
+		
+
+				.funraisin-primary-nav ul li a {padding-right: 15px  }
+		
+
+				.funraisin-primary-nav ul li a {padding-top: 15px  }
+		
+
+				.funraisin-primary-nav ul li a {padding-bottom: 15px  }
+		
+
+				.funraisin-desktop-nav .funraisin-primary-nav .funraisin-dropdown-nav .funraisin-dropdown-menu a,.funraisin-page-left .funraisin-primary-nav .funraisin-dropdown-nav .funraisin-dropdown-menu {background: #ffffff  }
+		
+
+				.funraisin-desktop-nav .funraisin-primary-nav .funraisin-dropdown-nav .funraisin-dropdown-menu a,.funraisin-page-left .funraisin-primary-nav .funraisin-dropdown-nav .funraisin-dropdown-menu a {color: #888888  }
+		
+
+				.funraisin-desktop-nav .funraisin-primary-nav .funraisin-dropdown-nav .funraisin-dropdown-menu a:hover,.funraisin-page-left .funraisin-primary-nav .funraisin-dropdown-nav .funraisin-dropdown-menu a:hover {background: #eeeeee  }
+		
+
+				.funraisin-desktop-nav .funraisin-primary-nav .funraisin-dropdown-nav .funraisin-dropdown-menu a:hover {color: #444444  }
+		
+
+				.funraisin-desktop-nav .funraisin-primary-nav .funraisin-dropdown-nav .funraisin-dropdown-menu a {padding-left: 15px  }
+		
+
+				.funraisin-desktop-nav .funraisin-primary-nav .funraisin-dropdown-nav .funraisin-dropdown-menu a {padding-right: 15px  }
+		
+
+				.funraisin-desktop-nav .funraisin-primary-nav .funraisin-dropdown-nav .funraisin-dropdown-menu a {padding-top: 8px  }
+		
+
+				.funraisin-desktop-nav .funraisin-primary-nav .funraisin-dropdown-nav .funraisin-dropdown-menu a {padding-bottom: 8px  }
+		
+
+				.funraisin-sticky-nav {background: #ffffff  }
+		
+
+				.funraisin-sticky-nav ul li a.text {color: #000000  }
+		
+
+				.funraisin-sticky-nav ul li:hover a.text {color: #444444  }
+		
+
+				.funraisin-sticky-nav ul li a {padding-left: 15px  }
+		
+
+				.funraisin-sticky-nav ul li a {padding-right: 15px  }
+		
+
+				.funraisin-sticky-nav ul li a {padding-top: 15px  }
+		
+
+				.funraisin-sticky-nav ul li a {padding-bottom: 15px  }
+		
+
+				.funraisin-sticky-nav {padding: 0  }
+		
+
+				.funraisin-tertiary-nav {background: #161616  }
+		
+
+				.funraisin-tertiary-nav ul li a {color: #ffffff  }
+		
+
+				.funraisin-tertiary-nav ul li a:hover {color: #ffa400  }
+		
+
+				.funraisin-tertiary-nav {padding: 10px 0  }
+		
+
+				.funraisin-secondary-nav ul li a:not(.btn) {background: transparent  }
+		
+
+				.funraisin-secondary-nav ul li a:not(.btn) {color: rgb(0, 0, 0)  }
+		
+
+				.funraisin-secondary-nav ul li a:hover {color: #444444  }
+		
+
+				.funraisin-secondary-nav ul li a {padding-left: 15px  }
+		
+
+				.funraisin-secondary-nav ul li a {padding-right: 15px  }
+		
+
+				.funraisin-secondary-nav ul li a {padding-top: 15px  }
+		
+
+				.funraisin-secondary-nav ul li a {padding-bottom: 15px  }
+		
+
+				.funraisin-secondary-nav .funraisin-dropdown-nav .funraisin-dropdown-menu {background: #ffffff  }
+		
+
+				.funraisin-secondary-nav .funraisin-dropdown-nav .funraisin-dropdown-menu a {color: #888888  }
+		
+
+				.funraisin-secondary-nav .funraisin-dropdown-nav .funraisin-dropdown-menu a:hover {background: #eeeeee  }
+		
+
+				.funraisin-secondary-nav .funraisin-dropdown-nav .funraisin-dropdown-menu a:hover {color: #444444  }
+		
+
+				.funraisin-secondary-nav .funraisin-dropdown-nav .funraisin-dropdown-menu a {padding-left: 15px  }
+		
+
+				.funraisin-secondary-nav .funraisin-dropdown-nav .funraisin-dropdown-menu a {padding-right: 15px  }
+		
+
+				.funraisin-secondary-nav .funraisin-dropdown-nav .funraisin-dropdown-menu a {padding-top: 8px  }
+		
+
+				.funraisin-secondary-nav .funraisin-dropdown-nav .funraisin-dropdown-menu a {padding-bottom: 8px  }
+		
+
+				funraisin-page-nav,.lump-navigation .nav-pills {background: transparent  }
+		
+
+				.funraisin-page-nav,.lump-navigation .nav-pills {text-align: center  }
+		
+
+				.funraisin-page-nav ul li a,.lump-navigation .nav-pills li a {background: #ffffff  }
+		
+
+				.funraisin-page-nav ul li a,.content .lump-navigation .nav-pills li a {color: #000000  }
+		
+
+				.funraisin-page-nav ul li a:hover,.content .lump-navigation .nav-pills li a:hover {background: #ffa400  }
+		
+
+				.funraisin-page-nav ul li a:hover,.content .lump-navigation .nav-pills li a:hover {color: #000000  }
+		
+
+				.funraisin-page-nav ul li a.active {background: #ffa400  }
+		
+
+				.funraisin-page-nav ul li a.active {color: #000000  }
+		
+
+				.row-tabs .nav-tabs li:first-child {border-radius:5px 0 0 0}
+										  .row-tabs .nav-tabs li:last-child {border-radius:0 5px 0 0}
+										  .funraisin-page-nav ul li:first-child a, .registration-steps ul li:first-child,.lump-navigation .nav-pills li:first-child {border-radius:5px 0 0 5px}
+										  .funraisin-page-nav ul li:last-child a, .registration-steps ul li:last-child,.lump-navigation .nav-pills li:last-child {border-radius:0 5px 5px 0}
+										  .funraisin-page-nav ul li:only-child a, .registration-steps ul li:only-child,.lump-navigation .nav-pills li:only-child {border-radius: 5px  }
+		
+
+				.funraisin-header-cta-panel {background: #ffffff  }
+		
+
+				.funraisin-header-cta-panel {color: #000000  }
+		
+
+				.funraisin-header-cta-panel {border-radius: 25px  }
+		
+
+				.funraisin-header-cta-panel {padding-left: 40px  }
+		
+
+				.funraisin-header-cta-panel {padding-right: 40px  }
+		
+
+				.funraisin-header-cta-panel {padding-top: 40px  }
+		
+
+				.funraisin-header-cta-panel {padding-bottom: 40px  }
+		
+
+				.funraisin-form .section {margin: 70px 20px  }
+		
+
+				.funraisin-form .section .container {padding: 30px 120px  }
+		
+
+				.funraisin-form .section .container, .register-tabs .container .nav-tabs, .account-tabs .nav-tabs {max-width:100%;width: 960px  }
+		
+
+				.funraisin-form .section .container {border-color: #cccccc  }
+		
+
+				.funraisin-form .section .container {border-width: 1px  }
+		
+
+				.funraisin-form .section .container {border-radius: 10px  }
+		
+
+				.form-group label {color: #000000  }
+		
+
+				.form-control {padding: 8px 15px  }
+		
+
+				.toggle-switch .toggle-btn:first-child{border-radius:5px 0 0 5px}
+										  .toggle-switch .toggle-btn:last-child {border-radius:0 5px 5px 0}
+										  .form-control, .input-group-addon, .input-group .btn {border-radius: 5px  }
+		
+
+				.funraisin-form .form-control {border-color: #cccccc  }
+		
+
+				.funraisin-form .form-control {border-width: 1px  }
+		
+
+				.profileSponsorForm, .profileSponsorForm .funraisin-fee-bordered .fee-box-header {background: #ffffff  }
+		
+
+				.profileSponsorForm {color: #5c5c5c  }
+		
+
+				.profileSponsorForm .form-control {border-radius: 5px  }
+		
+
+				.profileSponsorForm label {color: #000000  }
+		
+
+				#sidebar-form-toggler .active,#sidebar-form-toggler .sidebar-form-tab:hover {background: #ffa400  }
+		
+
+				#sidebar-form-toggler .active,#sidebar-form-toggler .sidebar-form-tab:hover {color: #000000  }
+		
+
+				.profileSidebar {border-width: 0px  }
+		
+
+				.profileSidebar, .causeSideBar {border-radius: 0 50px 0 50px  }
+		
+
+				.profileSidebar .sidebar-top {background: #ffffff  }
+		
+
+				.profileSidebar .sidebar-top, .profileSidebar .sidebar-top h4, .profileSidebar .sidebar-top h3, .profileSidebar .sidebar-top h2 {color: #000000  }
+		
+
+				.sidebar-curve .curve-container:before {border-radius: 0px  }
+		
+
+				.profileSidebar .radio .amount,.profileSponsorForm .radio .amount {color: #000000  }
+		
+
+				.profileSidebar .radio:hover .amount,.profileSidebar .radio.selected .amount,.profileSponsorForm .radio:hover .amount,.profileSponsorForm .radio.selected .amount {background: #ffa400  }
+		
+
+				.profileSidebar .radio:hover .amount,.profileSidebar .radio.selected .amount,.profileSponsorForm .radio:hover .amount,.profileSponsorForm .radio.selected .amount {color: #000000  }
+		
+
+				.profileSidebar .radio .amount {border-color: #ffa400  }
+		
+
+				.profileSidebar .radio .amount,.profileSponsorForm .radio .amount {border-style:solid;border-width: 2px  }
+		
+
+				.profileSidebar .radio:hover .amount,.profileSidebar .radio.selected .amount,.profileSponsorForm .radio:hover .amount,.profileSponsorForm .radio.selected .amount {border-color: #ffa400  }
+		
+
+				.profileSidebar .radio .amount {border-radius: 50%  }
+		
+
+				.profileSidebar .radio .amount {height: 80px  }
+		
+
+				.profileSidebar .radio .amount {font-size: 20px  }
+		
+
+				.profileSidebar .radio .amount {line-height: 80px  }
+		
+
+				.progress {background: #f2f2f2  }
+		
+
+				.progress-bar {background: #ffa400  }
+		
+
+				.progress,.progress-bar {height: 15px  }
+		
+
+				.funraisin-footer {background: #ffa400  }
+		
+
+				.funraisin-footer {color: #ffffff  }
+		
+
+				.funraisin-footer a {color: #ffffff  }
+		
+
+				.funraisin-footer .container {padding: 0  }
+		
+
+				.funraisin-footer {border-top-color: #ffa400  }
+		
+
+				.funraisin-footer {border-top-width: 0  }
+		
+
+				.funraisin-footer-legals {background: #ffa400  }
+		
+
+				.funraisin-footer-legals {color: #ffffff  }
+		
+
+				.funraisin-footer-legals a {color: #ffffff  }
+		
+
+				.funraisin-footer-legals .container {padding: 20px 0 30px  }
+		
+
+				.funraisin-footer-legals .container {border-top-color: #ffa400  }
+		
+
+				.funraisin-footer-legals .container {border-top-width: 0  }
+		
+
+		
+
+/*
+	Site containers
+*/
+
+
+.container {width:1200px;}
+
+.site-logo img {width:150px;}
+
+.funraisin-header {min-height:500px;}
+.profileSidebar {margin-top:-375px}
+
+
+
