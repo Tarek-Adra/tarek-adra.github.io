@@ -1,36 +1,36 @@
 
 //sets up resume modal
-var resumeIcons = document.querySelectorAll("i.fa-file");
-var backdrop = document.querySelector(".backdrop");
-var modal = document.querySelector(".modal");
+// var resumeIcons = document.querySelectorAll("i.fa-file");
+// // var backdrop = document.querySelector(".backdrop");
+// var modal = document.querySelector(".modal");
 
-resumeIcons.forEach(icon => {
-    icon.addEventListener("click", () => {
-        openModal();
-    })
-})
+// resumeIcons.forEach(icon => {
+//     icon.addEventListener("click", () => {
+//         openModal();
+//     })
+// })
 
-const openModal = () => {
-    setTimeout(() => {
-        modal.classList.add("open");
-        backdrop.classList.add("open");
-    }, 200)
+// const openModal = () => {
+//     setTimeout(() => {
+//         modal.classList.add("open");
+//         // backdrop.classList.add("open");
+//     }, 200)
     
-    backdrop.style.display = "block";
-    modal.style.display = "block";
+//     // backdrop.style.display = "block";
+//     modal.style.display = "block";
     
-}
+// }
 
-backdrop.addEventListener("click", () => {
-    modal.classList.remove("open");
-    backdrop.classList.remove("open");
+// backdrop.addEventListener("click", () => {
+//     modal.classList.remove("open");
+//     backdrop.classList.remove("open");
 
-    setTimeout(() => {
-        backdrop.style.display = "none";
-        modal.style.display = "none";
-    }, 200);
+//     setTimeout(() => {
+//         backdrop.style.display = "none";
+//         modal.style.display = "none";
+//     }, 200);
     
-})
+// })
 
 const itemContainer = document.querySelector(".item-container")
 setTimeout(() => {itemContainer.style.transitionDuration = "800ms"}, 500)
